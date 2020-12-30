@@ -1,0 +1,70 @@
+/* basic formats */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(assets/background.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+ /* header */
+header {
+  display: inline-block;
+  top: 0;
+  font-size: 3rem;
+  text-align: center;
+  background-color: rgba(0, 51, 44, .6);
+  padding-top: 1rem;
+  width: 100%;
+}
+h2 {
+  font-size: 2rem;
+  padding: 1rem;
+  font-family: 'Mallanna', sans-serif;
+}
+a {
+  color: antiquewhite;
+  text-shadow: 6px 6px 5px black;
+  display: inline-block;
+  width: 100%;
+  padding: 1rem;
+  background-color: rgba(0, 51, 44, .8);
+  border: 2px solid rgba(0, 41, 44);
+}
+h1 {
+  font-family: 'Averia Serif Libre', cursive;
+}
+
+
+/* content */
+
+.content {
+  font-size: 1.4rem;
+  text-align: center;
+  padding: 1rem;
+  letter-spacing: .2rem;
+  line-height: 2.4rem;
+  background-color: rgba(0, 26, 102, .3);
+}
+.profile-pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: .7;
+  width; 100%;
+  transition: opacity 2s;
+}
+.profile-pic:hover {
+  opacity: 1;
+}
+a:hover {
+  background-color: rgba(0, 51, 44, .5);
+}
